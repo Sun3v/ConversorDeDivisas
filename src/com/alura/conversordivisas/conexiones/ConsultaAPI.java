@@ -14,7 +14,7 @@ public class ConsultaAPI {
         
 
         //**************Puedes colocar tu propia clave de la API en caso de que la proporcionada haya caducado**************
-        String apiKey = "f38ac95ecf15caa7e11ebed0";
+        String apiKey = "";
 
         URI uriDeApi = URI.create("https://v6.exchangerate-api.com/v6/" + apiKey + "/pair/"+ divisaOrigen +"/"+ divisaPorConvertir +"/");
 
